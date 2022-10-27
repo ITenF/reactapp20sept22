@@ -5,8 +5,15 @@ import './index.css';
 //Pages
 import App from './App';
 import Shoot from "./Shoot"
+import Home from './pages/home'
 import Processor from './pages/Processor';
 import Opslag from './pages/Opslag';
+import Inenuitvoer from './pages/in-en-uitvoer';
+import Besturingssyteeml from './pages/besturingssyteem';
+import Uitlegapps from './pages/uitleg_apps';
+import BitsAndBites from './pages/bits_en_bites';
+import Programmeertaal from './pages/programmeertaal';
+import ServerUitleg from './pages/serverUitleg';
 //for Bootstrap
 import Bootstrapnavbarfun from './Bootstrap-navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -23,13 +30,20 @@ root.render(
     <Router>
     <Bootstrapnavbarfun />
       <Routes>
-      <Route exact path="/" component={App} />
+     {/* <Route exact path="/" component={App} /> */} 
+     <Route path=""  element={<Home/>}  />
+      <Route path="/"  element={<Home/>}  />
       <Route path="opslag" element={ <Opslag />} />
       <Route path="processor" element={<Processor />} />
+      <Route path="inenuitvoer" element={<Inenuitvoer />} />
+      <Route path="besturingssysteem" element={<Besturingssyteeml />} />
+      <Route path="uitlegApps" element={<Uitlegapps />} />
+      <Route path="bitsEnBites" element={<BitsAndBites />} />
+      <Route path="programmeertaal" element={<Programmeertaal />} />
+      <Route path="serverUitleg" element={<ServerUitleg />} />
       </Routes>
     </Router>
-    <App />
-    <Shoot/>
+  
   </React.StrictMode>
 );
 
