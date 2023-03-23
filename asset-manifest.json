@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/reactapp20sept22/static/css/main.a6603d1c.css",
-    "main.js": "/reactapp20sept22/static/js/main.bf472707.js",
+    "main.css": "/reactapp20sept22/static/css/main.eead0317.css",
+    "main.js": "/reactapp20sept22/static/js/main.7c660a14.js",
     "static/js/787.4264d46e.chunk.js": "/reactapp20sept22/static/js/787.4264d46e.chunk.js",
+    "static/media/hardwareVoorbeeld.jpg": "/reactapp20sept22/static/media/hardwareVoorbeeld.9eb55645e2b135c208d3.jpg",
+    "static/media/softwareCode.jpg": "/reactapp20sept22/static/media/softwareCode.040739abd6fa96caec4d.jpg",
+    "static/media/jongenAchterComputer.jpg": "/reactapp20sept22/static/media/jongenAchterComputer.f71ae1f6673a0c4e9914.jpg",
     "static/media/itenf-logo.png": "/reactapp20sept22/static/media/itenf-logo.b1597a6ea1b15c754103.png",
     "static/media/logo.svg": "/reactapp20sept22/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/reactapp20sept22/index.html",
-    "main.a6603d1c.css.map": "/reactapp20sept22/static/css/main.a6603d1c.css.map",
-    "main.bf472707.js.map": "/reactapp20sept22/static/js/main.bf472707.js.map",
+    "main.eead0317.css.map": "/reactapp20sept22/static/css/main.eead0317.css.map",
+    "main.7c660a14.js.map": "/reactapp20sept22/static/js/main.7c660a14.js.map",
     "787.4264d46e.chunk.js.map": "/reactapp20sept22/static/js/787.4264d46e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6603d1c.css",
-    "static/js/main.bf472707.js"
+    "static/css/main.eead0317.css",
+    "static/js/main.7c660a14.js"
   ]
 }
