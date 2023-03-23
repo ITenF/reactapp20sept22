@@ -14,6 +14,7 @@ import Uitlegapps from './pages/uitleg_apps';
 import BitsAndBites from './pages/bits_en_bites';
 import Programmeertaal from './pages/programmeertaal';
 import ServerUitleg from './pages/serverUitleg';
+import Calculator from './pages/calculator';
 //for Bootstrap
 import Bootstrapnavbarfun from './Bootstrap-navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -41,6 +42,7 @@ root.render(
       <Route path="bitsEnBites" element={<BitsAndBites />} />
       <Route path="programmeertaal" element={<Programmeertaal />} />
       <Route path="serverUitleg" element={<ServerUitleg />} />
+      <Route path="calculator" element={<Calculator />} />
       </Routes>
     </Router>
   

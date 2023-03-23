@@ -5,13 +5,20 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+
 //elements
 import CarouselSlider from '../losseElementen/CarouselSlider';
 //images
 import computerJongen from '../images/jongenAchterComputer.jpg'
 import hardwarevoorbeeld from '../images/hardwareVoorbeeld.jpg'
+import softwarevoorbeeld from '../images/softwareCode.jpg'
 //styles
 import '../styles/home.css'
+
+import { Link } from 'react-router-dom';
+import {LinkContainer} from "react-router-bootstrap"
+import Nav from 'react-bootstrap/Nav';
+
 
 
 
@@ -59,7 +66,7 @@ function Home(){
         </Row>
         <Row>
           <Col sm={2}></Col>
-          <Col sm={8}>
+          <Col  sm={4}>
               <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src={hardwarevoorbeeld} />
               <Card.Body>
@@ -68,7 +75,22 @@ function Home(){
                   Dit is een probeer tekst
               </Card.Text>
               <Button variant="primary">
-                Go somewhere
+                Lees meer..
+              </Button>
+            </Card.Body>
+          </Card>
+          </Col>
+          <Col sm={4} className="bg-colorGreen">
+              <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src={softwarevoorbeeld} />
+              <Card.Body>
+              <Card.Title>Software</Card.Title>
+              <Card.Text>
+                  Dit is een probeer tekst
+              </Card.Text>
+              <LinkContainer to="/processor"><Nav.Link>Processor</Nav.Link></LinkContainer>
+              <Button variant="primary">
+                Lees meer..
               </Button>
             </Card.Body>
           </Card>
