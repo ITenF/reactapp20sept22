@@ -51,6 +51,7 @@ function Bootstrapnavbarfun() {
               </LinkContainer>
             </NavDropdown>
             <LinkContainer to="/serverUitleg"><Nav.Link href="#Servers">Servers</Nav.Link></LinkContainer>
+            <LinkContainer to="/calculator"><Nav.Link href="#Calculator">Calculator</Nav.Link></LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Container>
